@@ -1,6 +1,6 @@
 {
-  "id": "ce2c7383-46ec-4504-be7c-08e0b0ef8567",
-  "prevId": "00000000-0000-0000-0000-000000000000",
+  "id": "8de4d93c-9995-4e6b-8acb-f95f1cd6df7a",
+  "prevId": "ce2c7383-46ec-4504-be7c-08e0b0ef8567",
   "version": "7",
   "dialect": "postgresql",
   "tables": {
@@ -54,7 +54,18 @@
           "name": "id",
           "type": "integer",
           "primaryKey": true,
-          "notNull": true
+          "notNull": true,
+          "identity": {
+            "type": "byDefault",
+            "name": "todos_id_seq",
+            "schema": "public",
+            "increment": "1",
+            "startWith": "1",
+            "minValue": "1",
+            "maxValue": "2147483647",
+            "cache": "1",
+            "cycle": false
+          }
         },
         "todo": {
           "name": "todo",

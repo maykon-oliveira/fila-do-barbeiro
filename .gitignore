@@ -40,3 +40,4 @@ sqlite.db
 
 # Environment variables
 .env
+data

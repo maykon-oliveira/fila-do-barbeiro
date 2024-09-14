@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-clean-architecture",
+  "name": "fila-do-barbeiro",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,7 +11,6 @@
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
-    "@libsql/client": "^0.9.0",
     "@lucia-auth/adapter-drizzle": "^1.0.7",
     "@node-rs/argon2": "^1.8.3",
     "@radix-ui/react-avatar": "^1.1.0",
@@ -29,6 +28,7 @@
     "lucide-react": "^0.424.0",
     "next": "14.2.5",
     "next-themes": "^0.3.0",
+    "pg": "^8.12.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "reflect-metadata": "^0.2.2",
@@ -42,6 +42,7 @@
   },
   "devDependencies": {
     "@types/node": "^20",
+    "@types/pg": "^8.11.10",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@vitest/coverage-istanbul": "^2.0.5",
